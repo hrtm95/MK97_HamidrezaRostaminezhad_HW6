@@ -1,18 +1,22 @@
 @font-face {
     font-family: yekan;
-    src: url("./../fonts/B Yekan.TTF");
+    src: url("./../fonts/Iranian\ Sans.ttf");
+
 }
 *{
     direction: rtl;
-    font-family: yekan;
+    font-family: yekan;   
 }
-
+html,#back{
+     background-color: #DDDDDD;
+}
 #frm{
     margin-top: 100px;
-    box-shadow: 10px 10px 10px 10px #000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
     background-color: #DDDDDD;
 }
+
 #samary{
     border-radius: 0px 20px 20px 0px;
     background-color: #DDDDDD;
@@ -22,7 +26,13 @@
     border-radius: 20px 0px 0px 20px;
     background-color: #ffffff;
 }
+span{
+    font-size: 22px;
+}
 img{
     width: 50px;
     height: 50px;
+}
+.leftxt{
+    text-align: left;
 }

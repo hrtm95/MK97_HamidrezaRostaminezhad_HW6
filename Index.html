@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="shadowbox" >
-            <div class="row" id="frm" style="box-shadow: 10px black;">
+<div id = "back">
+    <div class="container" >
+            <div class="row" id="frm" style="box-shadow: 10px rgb(65, 63, 63);">
                 <div id="samary" class="col-4">
                     <h2>خلاصه وضعیت</h2>
                     <hr>
@@ -21,7 +21,7 @@
                         <span class="col-6">
                             اقلام
                         </span>
-                        <span class="col-6">130 هزار تومان</span>
+                        <span class="col-6 leftxt" id="leftxt">130 هزار تومان</span>
                     </div>
                     <div>
                         <span>خرید</span>
@@ -47,13 +47,18 @@
                             دریافت کد
                         </span>
                     </div>
-                    <div>
-                        <input type="text" placeholder="کد خود را در اینجا درج کنید">
-                    </div>
+                        <div class="input-group mb-3 ">
+                            <input type="text" class="form-control" placeholder="کد خود را در اینجا درج کنید"  >
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary" type="button">-></button>
+                              </div>
+                          </div>
+                        
+                    
                     <hr>
                     <div class="row">
                         <span class="col-6">قیمت کل</span>
-                        <span class="col-6"> 137 هزار تومان</span>
+                        <span class="col-6 leftxt"> 137 هزار تومان</span>
                     </div>
     
                     <input type="button" value="پرداخت">
@@ -100,8 +105,7 @@
                 </div>
             </div>
         </div>
-
-    </div>
+</div>
 </body>
 
 </html>
