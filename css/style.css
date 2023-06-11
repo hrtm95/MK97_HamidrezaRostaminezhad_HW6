@@ -58,6 +58,14 @@ option{
 #shapingCartitems{
     text-align: end;
 }
+#titlecart{
+    display: flex;
+    align-items: center;
+}
 .cartitems{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
     
 }
