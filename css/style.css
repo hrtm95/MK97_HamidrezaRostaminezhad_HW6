@@ -1,6 +1,6 @@
 @font-face {
     font-family: yekan;
-    src: url("./../fonts/Iranian\ Sans.ttf");
+    src: url("./../fonts/B\ Yekan.TTF");
 
 }
 *{
@@ -25,6 +25,7 @@ html,#back{
 #shapingCart{
     border-radius: 20px 0px 0px 20px;
     background-color: #ffffff;
+    padding: 2rem;
 }
 span{
     font-size: 22px;
@@ -35,4 +36,28 @@ img{
 }
 .leftxt{
     text-align: left;
+}
+.discountCode{
+    border-radius: 0;
+    border: 0;
+    background-color: #FFF;
+    text-align: right;
+    width: 100%;
+}
+option{
+    border-radius: 0;
+    border: 0;
+}
+#btnpayment{
+    background-color: black;
+    text-align: center;
+}
+.divsamary{
+    margin-bottom: 20px;
+}
+#shapingCartitems{
+    text-align: end;
+}
+.cartitems{
+    
 }

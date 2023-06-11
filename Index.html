@@ -11,23 +11,23 @@
 </head>
 
 <body>
-<div id = "back">
-    <div class="container" >
+    <div id="back">
+        <div class="container">
             <div class="row" id="frm" style="box-shadow: 10px rgb(65, 63, 63);">
                 <div id="samary" class="col-4">
-                    <h2>خلاصه وضعیت</h2>
+                    <h2 >خلاصه وضعیت</h2>
                     <hr>
-                    <div class="row">
+                    <div class="row divsamary">
                         <span class="col-6">
                             اقلام
                         </span>
                         <span class="col-6 leftxt" id="leftxt">130 هزار تومان</span>
                     </div>
-                    <div>
+                    <div class="divsamary">
                         <span>خرید</span>
                     </div>
-                    <div>
-                        <select>
+                    <div class="dropdown divsamary">
+                        <select class="form-select discountCode">
                             <option>
                                 ارسال با پست پیشتاز
                             </option>
@@ -42,40 +42,49 @@
                             </option>
                         </select>
                     </div>
-                    <div>
+                    <div class="divsamary">
                         <span>
                             دریافت کد
                         </span>
                     </div>
-                        <div class="input-group mb-3 ">
-                            <input type="text" class="form-control" placeholder="کد خود را در اینجا درج کنید"  >
-                            <div class="input-group-prepend">
-                                <button class="btn btn-outline-secondary" type="button">-></button>
-                              </div>
-                          </div>
-                        
-                    
+                    <div class="input-group discountCode divsamary">
+                        <input type="text" class="form-control discountCode" placeholder="کد خود را در اینجا درج کنید">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-outline-secondary discountCode" type="button">-></button>
+                        </div>
+                    </div>
+
+
                     <hr>
-                    <div class="row">
+                    <div class="row divsamary">
                         <span class="col-6">قیمت کل</span>
                         <span class="col-6 leftxt"> 137 هزار تومان</span>
                     </div>
-    
-                    <input type="button" value="پرداخت">
+                    <div>
+                        <input class="btn btn-dark discountCode divsamary" type="submit" id="btnpayment" value="پرداخت">
+                    </div>
                 </div>
                 <div id="shapingCart" class="col-8">
-                    <h1>سبد خرید</h1>
-                    <span>سه عدد</span>
+                    <div class="row">
+                        <div class="col-6">
+                            <h1>سبد خرید</h1>
+                        </div>
+                        <div class="col-6" id="shapingCartitems">
+                            <span>سه عدد</span>
+                        </div>    
+                    </div>
                     <hr>
-                    <div>
-                        <img src="img/t-shirt-red.png">
-                        <div>
+                    <div class="row cartitems">
+                        <div class="col-2"><img src="img/t-shirt-red.png"></div>
+                        
+                        <div class="col-3">
                             <span>پیراهن</span>
                             <span>تی شرت کتان</span>
                         </div>
-                        <input type="number" value="1" min="1">
-                        <span>44 هزار تومن</span>
-                        <input type="button" value="X">
+                        <div class="col-3"><input type="number" value="1" min="1"></div>
+                        <div class="col-2"><span>44 هزار تومن</span></div>
+                        <div class="col-2"><input type="button" value="X"></div>
+                        
                     </div>
                     <hr>
                     <div>
@@ -101,11 +110,11 @@
                     </div>
                     <hr>
                     <span>بازگشت به سایت اصلی</span>
-    
+
                 </div>
             </div>
         </div>
-</div>
+    </div>
 </body>
 
 </html>
