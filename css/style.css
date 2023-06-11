@@ -6,13 +6,12 @@
     direction: rtl;
     font-family: yekan;
 }
-.shadowbox{
 
-}
 #frm{
-    padding: 100px;
-    background-color: #DDDDDD;
+    margin-top: 100px;
     box-shadow: 10px 10px 10px 10px #000;
+    border-radius: 20px;
+    background-color: #DDDDDD;
 }
 #samary{
     border-radius: 0px 20px 20px 0px;
