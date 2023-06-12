@@ -1,0 +1,18 @@
+@font-face {
+    font-family: vazir;
+    src: url("./../fonts/Vazir-Bold.ttf");
+}
+*{
+    font-family: vazir;   
+}
+#header{
+    background-color: #535353;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.txtwite{
+ color: white;
+     display: flex;
+    align-items: center;
+}
