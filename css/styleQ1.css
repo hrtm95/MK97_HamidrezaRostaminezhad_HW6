@@ -1,0 +1,76 @@
+@font-face {
+    font-family: yekan;
+    src: url("./../fonts/dana.ttf");
+
+}
+*{
+    direction: rtl;
+    font-family: yekan;   
+}
+html,#back{
+     background-color: #DDDDDD;
+}
+#frm{
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    background-color: #DDDDDD;
+}
+
+#samary{
+    border-radius: 20px 0px 0px 20px;
+    background-color: #DDDDDD;
+    padding: 2rem;
+}
+#shapingCart{
+    border-radius: 0px 20px 20px 0px;
+    background-color: #ffffff;
+    padding: 2rem 2rem 1rem 2rem;
+}
+span{
+    font-size: 20px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.leftxt{
+    text-align: left;
+}
+.discountCode{
+    border-radius: 0;
+    border: 0;
+    background-color: #FFF;
+    text-align: right;
+    width: 100%;
+}
+option{
+    border-radius: 0;
+    border: 0;
+}
+#btnpayment{
+    background-color: black;
+    text-align: center;
+}
+.divsamary{
+    margin-bottom: 20px;
+}
+#shapingCartitems{
+    text-align: end;
+}
+#titlecart{
+    display: flex;
+    align-items: center;
+}
+.cartitems{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+#backtosite{
+    padding-top: 30px;
+    font-size: 15px;
+    display: flex;
+}
