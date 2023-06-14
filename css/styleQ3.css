@@ -5,6 +5,7 @@
 *{
     font-family: vazir;
     font-size: 1.1rem;
+    direction: rtl;
 }
 .Background{
     background-color: #EEEEEE;
@@ -26,10 +27,10 @@ label{
  width: 15rem;
  padding: 0.4rem;
  text-align: center;
- margin: 2rem 0rem 1rem 2rem;
+ margin: 2rem 2rem 1rem 0rem;
 }
 .bi-bullseye{
-    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .p-time{
     font-size: 0.7rem;
