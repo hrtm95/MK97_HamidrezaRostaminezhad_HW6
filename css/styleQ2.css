@@ -8,11 +8,22 @@
 #header{
     background-color: #535353;
     padding: 10px;
-    display: flex;
-    align-items: center;
 }
 .txtwite{
- color: white;
-     display: flex;
-    align-items: center;
+    color: white;
+    width: 100%;
 }
+#hedShow{
+    text-align: right;
+}
+.table{
+    margin-bottom: 0px;
+}
+thead th{
+    background-color: #8d8d8d !important;
+}
+footer{
+    background-color: #535353 ;
+    color: white;
+    padding: 15px;
+  }

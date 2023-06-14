@@ -10,16 +10,20 @@
     <link rel="stylesheet" href="css/styleQ2.css">
     <title>سیستم اطلاعاتی</title>
 
-    <div >
+</head>
+
+<body>
+
+    <header >
         <div class="row" id="header">
             <div class="col">
                 <button class="btn btn-dark "><i class="bi bi-plus-circle-fill"></i>&nbsp&nbspAdd now</button>
             </div>
-            <div class="col row">
-                <div class="col hedview">
-                    <span class="txtwite">نمایش:</span>
+            <div class="col row align-items-center">
+                <div class="col-9" id="hedShow">
+                    <span class="txtwite">Show:</span>
                 </div>
-                <div class="col">
+                <div class="col-3">
                     <select class="form-select">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -30,19 +34,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
-</head>
-
-<body>
     <table class="table table-striped">
         <thead>
-            <tr>
-                <th scope="col">Action</th>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Age</th>
-                <th scope="col">View</th>
+            <tr class="tblhead">
+                <th class="col-2" scope="col">Action</th>
+                <th class="col-1" scope="col">#</th>
+                <th class="col-4" scope="col">Name</th>
+                <th class="col-2" scope="col">Age</th>
+                <th class="col-2" scope="col">View</th>
             </tr>
         </thead>
         <tbody>
@@ -69,6 +70,34 @@
             </tr>
         </tbody>
     </table>
+    <footer>
+        <div class="row align-items-center">
+            <div class="col">
+                <span>Showing 5 out of 25 entries</span>
+            </div>
+            <div class="col" style="float: right;">
+
+                    <ul class="pagination justify-content-end" style=" margin-top: revert ;">
+                      <li class="page-item">
+                        <a class="page-link" href="#">
+                          <span>&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">
+                          <span>&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+            </div>
+        </div>
+
+</footer>
     
 </body>
 
