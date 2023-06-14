@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'dana';
+    src: url("./../fonts/dana.ttf");
+  }
+*{
+    font-family: vazir;
+    font-size: 1.1rem;
+}
+.Background{
+    background-color: #EEEEEE;
+}
+.img-thumbnail{
+    height: 50px;
+    width: 50px;
+}
+.card{
+    background-color: #F6F6F6;
+    box-shadow: rgba(94, 163, 148, 0.9) 0px 3px;
+    border: none;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+label{
+ background-color: black;
+ color: white;
+ width: 15rem;
+ padding: 0.4rem;
+ text-align: center;
+ margin: 2rem 0rem 1rem 2rem;
+}
+.bi-bullseye{
+    margin-left: 2rem;
+}
+.p-time{
+    font-size: 0.7rem;
+     color: rgb(133, 130, 130);
+     margin-top: 0.2rem;
+}
+p{
+    margin-bottom: 0px;
+}
+span{
+    margin: 0.4rem;
+}
